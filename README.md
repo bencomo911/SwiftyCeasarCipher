@@ -6,3 +6,6 @@ Use this program to encrypt all your secret messages to yourself or your cats. N
 CAUTION: Ceaser's Cipher is the simplest most widely known encryption technique. Use at your own risk. 
 
 Happy Encrypting!
+
+## Future improvements:
+1. Allow for multiword secret messages
