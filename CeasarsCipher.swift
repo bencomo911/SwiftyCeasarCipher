@@ -1,10 +1,10 @@
 // Declare and initalize variables and constants
 let alphabet: [Character] = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-var secretMessage: String = "catsrule"
+var secretMessage: String = "CatsRule"
 var encryptedMessage: [Character] = []
 
 // Convert message to array of characters
-var message = Array(secretMessage)
+var message = Array(secretMessage.lowercased())
 
 // Iterate through characters in message
 for i in 0 ..< message.count{
@@ -20,5 +20,8 @@ for i in 0 ..< message.count{
   }//end nested for
 }//end for 
 
+
+// Convert Char array to String
+let finalMessage = String(encryptedMessage)
 // print||return encrytped message
-print(encryptedMessage)
+print(finalMessage)
